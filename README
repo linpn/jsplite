@@ -1,2 +1,26 @@
 一个轻量级的jsp mvc, 非常简单，适合小网站。
 A simple jsp mvc.  It's so easy and suitable for small website.
+
+
+在 *.jsp中加入:
+
+<%@ page import="com.github.jsplite.Jsplite" %>
+<% Jsplite.inherits("com.xxx.xxx.IndexAction", request, response); %>
+
+
+在 pom.xml 中加入:
+
+<repositories>
+    <repository>
+        <id>jsplite-mvn-github</id>
+        <url>https://raw.githubusercontent.com/lpn520/jsplite/master/mvn-repository</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github</groupId>
+        <artifactId>jsplite</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+</dependencies>
