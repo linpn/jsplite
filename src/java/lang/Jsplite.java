@@ -1,5 +1,7 @@
 package java.lang;
 
+import com.github.jsplite.http.JspliteHttpRequest;
+import com.github.jsplite.http.JspliteHttpResponse;
 import com.github.jsplite.mvc.Controller;
 import com.github.jsplite.mvc.ModelView;
 
@@ -25,12 +27,15 @@ public final class Jsplite {
     /**
      * 为JSP指定哪个controller类
      *
-     * @param request
-     * @param response
      * @param bean
+     * @param req
+     * @param res
      */
-    public static void inherits(String bean,
-                                HttpServletRequest request, HttpServletResponse response) throws Exception {
+    public static void inherits(String bean, HttpServletRequest req, HttpServletResponse res) throws Exception {
+
+        JspliteHttpRequest request = new JspliteHttpRequest(req);
+        JspliteHttpResponse response = new JspliteHttpResponse(res);
+
         //设置HTML头信息
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");

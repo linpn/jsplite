@@ -9,9 +9,10 @@ import java.util.Set;
 /**
  * 从controller传回view端的数据
  *
- * @author lpn
+ * @author Linpn
  */
 public class ModelView implements Iterable<Map.Entry<String, Object>> {
+
     private Map<String, Object> map;
 
     public ModelView() {

@@ -1,17 +1,19 @@
 package com.github.jsplite.mvc;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import com.github.jsplite.http.JspliteHttpRequest;
+import com.github.jsplite.http.JspliteHttpResponse;
 
 
 /**
  * MVC用来向jsp指定的控制类接口
+ *
+ * @author Linpn
  */
 public interface Controller {
 
     /**
      * 接收客户端的请求
      */
-    public void execute(HttpServletRequest request, HttpServletResponse response, ModelView model) throws Exception;
+    void execute(JspliteHttpRequest request, JspliteHttpResponse response, ModelView model) throws Exception;
 
 }
