@@ -4,8 +4,7 @@ A simple jsp mvc.  It's so easy and suitable for small website.
 
 在 *.jsp中加入:
 
-<%@ page import="com.github.jsplite.Jsplite" %>
-<% Jsplite.inherits("com.xxx.xxx.IndexAction", request, response); %>
+<% Jsplite.inherits("com.xxx.xxx.Index", request, response); %>
 
 
 在 pom.xml 中加入:
