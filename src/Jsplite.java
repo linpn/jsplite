@@ -1,5 +1,3 @@
-package java.lang;
-
 import com.github.jsplite.http.JspliteHttpRequest;
 import com.github.jsplite.http.JspliteHttpResponse;
 import com.github.jsplite.mvc.Controller;
