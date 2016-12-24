@@ -1,20 +1,12 @@
-一个轻量级的jsp mvc, 非常简单，适合小网站。
 A simple jsp mvc.  It's so easy and suitable for small website.
 
 
-在 *.jsp中加入:
+Add in *.jsp:
 
 <% Jsplite.inherits("com.xxx.xxx.Index", request, response); %>
 
 
-在 pom.xml 中加入:
-
-<repositories>
-    <repository>
-        <id>jsplite-mvn-github</id>
-        <url>https://raw.githubusercontent.com/lpn520/jsplite/master/mvn-repository</url>
-    </repository>
-</repositories>
+Add in pom.xml:
 
 <dependencies>
     <dependency>
@@ -25,7 +17,7 @@ A simple jsp mvc.  It's so easy and suitable for small website.
 </dependencies>
 
 
-再配合urlrewritefilter, 在/WEB-INF/urlrewrite.xml 中加入:
+With the use of urlrewritefilter, Create "/WEB-INF/urlrewrite.xml":
 
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN" "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
@@ -36,7 +28,7 @@ A simple jsp mvc.  It's so easy and suitable for small website.
     </rule>
 </urlrewrite>
 
-在 web.xml 中加入:
+Add in web.xml:
 
 <filter>
     <filter-name>UrlRewriteFilter</filter-name>
