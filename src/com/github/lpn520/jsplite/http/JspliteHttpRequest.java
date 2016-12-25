@@ -1,4 +1,4 @@
-package com.github.jsplite.http;
+package com.github.lpn520.jsplite.http;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

@@ -10,7 +10,7 @@ Add in pom.xml:
 
 <dependencies>
     <dependency>
-        <groupId>com.github</groupId>
+        <groupId>com.github.lpn520</groupId>
         <artifactId>jsplite</artifactId>
         <version>1.0.0</version>
     </dependency>

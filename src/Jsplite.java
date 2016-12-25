@@ -1,7 +1,7 @@
-import com.github.jsplite.http.JspliteHttpRequest;
-import com.github.jsplite.http.JspliteHttpResponse;
-import com.github.jsplite.mvc.Controller;
-import com.github.jsplite.mvc.ModelView;
+import com.github.lpn520.jsplite.http.JspliteHttpRequest;
+import com.github.lpn520.jsplite.http.JspliteHttpResponse;
+import com.github.lpn520.jsplite.mvc.Controller;
+import com.github.lpn520.jsplite.mvc.ModelView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
