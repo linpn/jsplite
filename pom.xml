@@ -6,12 +6,31 @@
     <version>1.0.0</version>
 
     <url>https://github.com/lpn520/jsplite.git</url>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
     <developers>
         <developer>
             <name>Linpn</name>
             <email>lpn520@gmail.com</email>
         </developer>
     </developers>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <tag>master</tag>
+        <url>git@github.com:lpn520/jsplite.git</url>
+        <connection>scm:git:git@github.com:lpn520/jsplite.git</connection>
+        <developerConnection>scm:git:git@github.com:lpn520/jsplite.git</developerConnection>
+    </scm>
 
     <!-- 构建 -->
     <build>
@@ -87,24 +106,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <!-- 仓库 -->
-    <repositories>
-        <repository>
-            <id>oschina-mvn-repository</id>
-            <url>http://maven.oschina.net/content/groups/public</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>oschina-plugin-repository</id>
-            <url>http://maven.oschina.net/content/groups/public</url>
-            <releases>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
 </project>
