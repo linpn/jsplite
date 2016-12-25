@@ -7,6 +7,7 @@
 
     <url>https://github.com/lpn520/jsplite.git</url>
 
+    <!-- Maven中央仓库 -->
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
