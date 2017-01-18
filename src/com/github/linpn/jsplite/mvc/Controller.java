@@ -14,6 +14,6 @@ public interface Controller {
     /**
      * 接收客户端的请求
      */
-    void execute(JspliteHttpRequest request, JspliteHttpResponse response, ModelView model) throws Exception;
+    void execute(JspliteHttpRequest request, JspliteHttpResponse response, ModelView model);
 
 }
