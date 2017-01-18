@@ -1,3 +1,5 @@
+package java.lang;
+
 import com.github.lpn520.jsplite.http.JspliteHttpRequest;
 import com.github.lpn520.jsplite.http.JspliteHttpResponse;
 import com.github.lpn520.jsplite.mvc.Controller;
