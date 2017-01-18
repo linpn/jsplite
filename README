@@ -1,4 +1,5 @@
-Jsplite is a simple jsp mvc.  It's so easy and suitable for small website.
+Jsplite is a simple jsp mvc. It's so easy and suitable for small website.
+With the use of jstl and urlrewrite.
 
 
 Add in *.jsp:
@@ -10,23 +11,12 @@ Add in pom.xml:
 
 <dependencies>
     <dependency>
-        <groupId>com.github.lpn520</groupId>
+        <groupId>com.github.linpn</groupId>
         <artifactId>jsplite</artifactId>
         <version>1.0.0</version>
     </dependency>
 </dependencies>
 
-
-With the use of urlrewritefilter, Create "/WEB-INF/urlrewrite.xml":
-
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN" "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
-<urlrewrite>
-    <rule>
-        <from>/index.htm</from>
-        <to type="forward">/index.jsp</to>
-    </rule>
-</urlrewrite>
 
 Add in web.xml:
 
@@ -40,3 +30,15 @@ Add in web.xml:
     <dispatcher>REQUEST</dispatcher>
     <dispatcher>FORWARD</dispatcher>
 </filter-mapping>
+
+
+Create "/WEB-INF/urlrewrite.xml":
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN" "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+    <rule>
+        <from>/index.htm</from>
+        <to type="forward">/index.jsp</to>
+    </rule>
+</urlrewrite>

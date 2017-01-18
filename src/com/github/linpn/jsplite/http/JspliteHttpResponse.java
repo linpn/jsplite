@@ -1,4 +1,4 @@
-package com.github.lpn520.jsplite.http;
+package com.github.linpn.jsplite.http;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.Cookie;

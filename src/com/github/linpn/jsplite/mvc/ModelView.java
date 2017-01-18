@@ -1,4 +1,4 @@
-package com.github.lpn520.jsplite.mvc;
+package com.github.linpn.jsplite.mvc;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;

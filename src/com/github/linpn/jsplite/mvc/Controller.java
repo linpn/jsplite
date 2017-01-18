@@ -1,7 +1,7 @@
-package com.github.lpn520.jsplite.mvc;
+package com.github.linpn.jsplite.mvc;
 
-import com.github.lpn520.jsplite.http.JspliteHttpRequest;
-import com.github.lpn520.jsplite.http.JspliteHttpResponse;
+import com.github.linpn.jsplite.http.JspliteHttpRequest;
+import com.github.linpn.jsplite.http.JspliteHttpResponse;
 
 
 /**
