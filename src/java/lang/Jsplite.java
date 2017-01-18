@@ -27,9 +27,10 @@ public final class Jsplite {
     /**
      * 为JSP指定哪个controller类
      *
-     * @param bean
-     * @param req
-     * @param res
+     * @param bean 处理类全名
+     * @param req  request请求
+     * @param res  response请求
+     * @throws Exception 抛出异常
      */
     public static void inherits(String bean, HttpServletRequest req, HttpServletResponse res) throws Exception {
 

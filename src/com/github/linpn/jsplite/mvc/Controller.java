@@ -13,6 +13,10 @@ public interface Controller {
 
     /**
      * 接收客户端的请求
+     *
+     * @param request  扩展的request请求
+     * @param response 扩展的response请求
+     * @param model    传回jsp的数据
      */
     void execute(JspliteHttpRequest request, JspliteHttpResponse response, ModelView model);
 
