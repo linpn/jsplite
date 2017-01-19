@@ -1,0 +1,6 @@
+<repositories>
+    <repository>
+        <id>jsplite-mvn-repository</id>
+        <url>https://raw.githubusercontent.com/linpn/jsplite/master/mvn-repository</url>
+    </repository>
+</repositories>
